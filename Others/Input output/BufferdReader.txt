@@ -1,0 +1,10 @@
+BufferedReader 가 Scanner보다 더 빠르다
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+StringTokenizer st = new StringTokenizer(br.readLine());
+
+띄어쓰기 공배을 위해서 StringTokenizer를 사용하자
+
+
+Integer.parseInt(br.readLine());
+Integer.parseInt(st.nextToken());
